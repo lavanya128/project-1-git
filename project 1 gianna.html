@@ -1,1 +1,42 @@
-project 1 gianna.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="demo"></p>
+	<p id="demo1"></p>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3GM2uDaCp-uWwAwmICnP_kKnVwImDPf4&libraries=places"></script>
+
+  <script type="text/javascript">
+   
+
+   //var queryURL = "https://maps.googleapis.com/maps/api/place/radarsearch/json?location=51.503186,-0.126446&radius=5000&type=museum&key=AIzaSyA3GM2uDaCp-uWwAwmICnP_kKnVwImDPf4";
+
+   var queryURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=40.730610,-73.935242&radius=500&type=restaurant&key=AIzaSyA3GM2uDaCp-uWwAwmICnP_kKnVwImDPf4";
+
+$.ajax({
+      url: queryURL,
+      method: 'GET',
+      cache: false,
+      crossDomain: true,
+    }).done(function(response) {
+      console.log(response);
+
+//var resName = JSON.stringify(response.results[0].name);
+//var resVicinity = JSON.stringify(response.results[0].vicinity);
+
+      //console.log(resName);
+
+      //document.getElementById("demo").innerHTML = resName ;
+      //document.getElementById("demo1").innerHTML = resVicinity;
+  
+      
+    });
+
+    
+  </script>
+</body>
+</html>
