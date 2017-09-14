@@ -1,0 +1,80 @@
+body {
+	background-image: url("../images/airplane2.jpg");
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #00BFFF;
+	font-size: 90px;
+	text-align: center;
+}
+
+p {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #00BFFF;
+	font-size: 30px;
+	text-align: center;
+}
+
+.card-title {
+	color: salmon;
+}
+
+#adult {
+	color: salmon;
+}
+
+#children {
+	color: salmon;
+}
+
+#resultHead{
+	color: salmon;
+	font-family: Arial;
+}
+
+#tabHead {
+	background: lavender;
+	color: salmon;
+}
+
+#flightInfo {
+	padding-bottom: 0;
+}
+
+#totalCost {
+	font-family: Arial;
+	text-align: left;
+	font-size: 20px;
+}
+
+#bigSelect {
+	float: right;
+}
+
+#selectLink {
+	margin: auto 0;
+	padding-bottom: 0;
+	float: right;
+}
+
+#tripTotal {
+	font-size: 15px;
+	font-family: Arial;
+	float: left;
+}
+
+#airportInfo {
+	float: right;
+}
+
+#timeInfo {
+	text-align: center;
+}
+
+#poiTab {
+	font-family: Arial;
+	text-align: left;
+	font-size: 20px;
+}
